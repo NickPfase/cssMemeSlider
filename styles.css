@@ -1,0 +1,51 @@
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.slider_container {
+    width: 80vw;
+    height: 70vh;
+    display: grid;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-columns: 50%;
+    row-gap: 1em;
+}
+
+.images_container {
+    width: 80vw;
+    height: 70vh;
+    overflow: hidden;
+    display: grid;
+    gap: 0;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+
+.images_container img {
+    width: 80vw;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.text_container {
+    width: 12em;
+    height: 1em;
+    overflow: hidden;
+}
+
+.input_container {
+    text-align: end;
+}
