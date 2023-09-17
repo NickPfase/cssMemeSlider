@@ -1,0 +1,19 @@
+.slider_container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+
+}
+
+.fake_dots {
+    justify-content: center;
+}
+
+.fake_dots label {
+    display: grid;
+    grid-row-start: 2;
+    align-items: left;
+}
+
+.text_container {
+    grid-row-start: 3;
+}
